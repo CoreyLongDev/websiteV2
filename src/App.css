@@ -24,8 +24,19 @@ body {
   min-height: 500px;
   padding: 2rem;
   margin: 2rem;
+  display: flex;
 }
 #cardcontainer {
   display: flex;
   flex-direction: column;
+}
+.welcome {
+  font-size: 80px;
+  text-align: center;
+  color: #FF5DB2;
+  display: flex;
+  letter-spacing: 25px;
+}
+.zebra {
+  color: #00c086;
 }

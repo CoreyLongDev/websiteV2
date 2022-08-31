@@ -1,12 +1,13 @@
-import Logo from '../Images/ProfileOne.jpeg'
 
 const Home = () => {
-    return (
-        // <img src={Logo}/>
-        <div className="content">
-
-        </div>
+    return(
+        <h1 className="welcome">H<span className="zebra">E</span>L<span className="zebra">L</span>O</h1>
     )
 }
+
+
+
+
+
 
 export default Home;

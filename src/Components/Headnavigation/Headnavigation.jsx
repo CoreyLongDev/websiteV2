@@ -4,9 +4,9 @@ import './headnavigation.css'
 const Headnavigation = () => {
     return (
         <div className='flexbox'>
-
+                    <a href='./'>
                     <img id='logo' src={Logo} alt='Personel brand logo for software developer Corey Long.' />
-                    <br />
+                    </a>
                     <ul id='navigation'>
                         <li><a href="./web">Web</a></li>
                         <li><a href="./games">Games</a></li>
