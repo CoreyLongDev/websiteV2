@@ -15,12 +15,6 @@
     text-decoration: none;
     color: aquamarine;
 }
-a {
-    text-decoration: none;
-    color: purple;
-    font-family: 'Rubik Marker Hatch', cursive;
-    font-size: 32px;
-}
 a:hover {
     color: teal;
     text-decoration: line-through;
