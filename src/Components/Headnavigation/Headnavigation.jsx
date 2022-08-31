@@ -1,4 +1,4 @@
-import Logo from '../Headnavigation/logoWhite.png'
+import Logo from '../Headnavigation/logoGradient.png'
 import './headnavigation.css'
 
 const Headnavigation = () => {
