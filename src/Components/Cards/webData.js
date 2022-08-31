@@ -6,7 +6,7 @@ const webData = [
         info: "Early Development - Solo Project",
         info2: "secondary info paragraph form",
         githubLink: "https://github.com/CoreyLongDev/BarCadia",
-        liveSite: "http://www.google.com"
+        liveSite: "#"
     },
     {
         name: "Trail Blazers",
@@ -15,7 +15,7 @@ const webData = [
         info: "Multi-Contributor Project",
         info2: "secondary info paragraph form",
         githubLink: "https://github.com/CoreyLongDev/trailblazer-frontend",
-        liveSite: "http://www.google.com"
+        liveSite: "#"
     },
     {
         name: "Giphy Searcher",
@@ -24,7 +24,7 @@ const webData = [
         info: "Search application resulting from Giphy API",
         info2: "secondary info paragraph form",
         githubLink: "https://github.com/CoreyLongDev/giphyClone",
-        liveSite: "http://www.google.com"
+        liveSite: "#"
     }
 ]
 
