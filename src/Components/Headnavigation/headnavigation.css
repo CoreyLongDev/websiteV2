@@ -2,6 +2,8 @@
 .flexbox {
     display: flex;
     flex-direction: column;
+    float: left;
+    max-width: 30%;
 }
 #logo {
     float: inline-start;

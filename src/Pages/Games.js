@@ -16,7 +16,7 @@ function createCard(gamesData) {
 
 function Games() {
     return (
-        <div className="content">
+        <div className="content" id="cardcontainer">
             <h1>Games</h1>
             {gamesData.map(createCard)}
         </div>
