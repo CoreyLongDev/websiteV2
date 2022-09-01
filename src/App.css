@@ -20,11 +20,6 @@ body {
   display: flex;
 }
 
-#cardcontainer {
-  display: flex;
-  flex-direction: column;
-}
-
 .welcome {
   font-size: 80px;
   text-align: center;

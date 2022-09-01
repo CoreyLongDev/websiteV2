@@ -18,7 +18,7 @@ function createCard(webData) {
 
 function Web() {
     return (
-        <div className="content" id="cardcontainter">
+        <div className="cardalacart">
             {webData.map(createCard)}
         </div>
     )

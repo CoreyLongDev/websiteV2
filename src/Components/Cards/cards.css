@@ -1,6 +1,37 @@
-.cardflex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 1rem;
+.cardContainer {
+    padding-bottom: 2rem;
+    display: block;
+    padding-left: 2rem;
+    float: right;
+}
+
+.cardImage {
+    width: 400px;
+    height: 225px;
+}
+
+.cardTitle {
+    font-size: 32px;
+    color: teal;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.cardSub {
+    border-top: 1px solid white;
+    padding-top: 0.5rem;
+    text-align: center;
+
+}
+
+.cardInfo {
+    color: purple;
+    text-align: center;
+}
+
+.githubLink {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
 }

@@ -15,7 +15,7 @@
     text-decoration: none;
     color: aquamarine;
 }
-a:hover {
+#navitem:hover {
     color: teal;
     text-decoration: line-through;
 }

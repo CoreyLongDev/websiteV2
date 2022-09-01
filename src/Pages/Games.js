@@ -3,6 +3,7 @@ import gamesData from "../Components/Cards/gamesData"
 
 function createCard(gamesData) {
     return (
+        <>
             <Cards
                 name={gamesData.name}
                 subTitle={gamesData.subTitle}
@@ -11,12 +12,13 @@ function createCard(gamesData) {
                 githubLink={gamesData.githubLink}
                 liveSite={gamesData.liveSite}
             />
+        </>
     )
 }
 
 function Games() {
     return (
-        <div className="content" id="cardcontainer">
+        <div className="cardalacart">
             {gamesData.map(createCard)}
         </div>
     )
