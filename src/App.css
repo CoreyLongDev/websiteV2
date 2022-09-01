@@ -2,13 +2,6 @@ body {
   background-image: url("../src/Images/SmokeyMountains.jpg");
 }
 
-#theDoor {
-  display: flex;
-  margin-left: auto;
-  margin-right: 0;
-  width: 60%;
-}
-
 .content {
   float: right;
   text-align: right;
@@ -26,10 +19,12 @@ body {
   margin: 2rem;
   display: flex;
 }
+
 #cardcontainer {
   display: flex;
   flex-direction: column;
 }
+
 .welcome {
   font-size: 80px;
   text-align: center;
@@ -37,9 +32,11 @@ body {
   display: flex;
   letter-spacing: 25px;
 }
+
 .zebra {
   color: #00c086;
 }
+
 #contactcontainer {
   display: flex;
   flex-direction: column;
@@ -48,12 +45,38 @@ body {
   right: 0;
   left: 0;
   padding-top: 10rem;
-  
+
 }
+
 .cooltext {
   text-decoration: none;
   color: purple;
   font-family: 'Rubik Marker Hatch', cursive;
   font-size: 32px;
   padding-left: 2.5rem;
+}
+
+#aboutheading {
+  text-align: center;
+}
+
+#aboutp {
+  padding-left: 2rem;
+}
+
+/* IMAGES */
+#theDoor {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  width: 60%;
+}
+
+#selfie {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  width: 75%;
+  overflow: hidden;
+  border: 20px ridge #A05E27;
 }
