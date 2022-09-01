@@ -41,9 +41,9 @@ body {
   color: #00c086;
 }
 #contactcontainer {
-  align-items: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: absolute;
   right: 0;
   left: 0;
@@ -55,4 +55,5 @@ body {
   color: purple;
   font-family: 'Rubik Marker Hatch', cursive;
   font-size: 32px;
+  padding-left: 2.5rem;
 }
