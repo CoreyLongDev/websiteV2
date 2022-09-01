@@ -63,6 +63,10 @@ body {
 #aboutp {
   padding-left: 2rem;
 }
+#aboutp::first-line {
+  color: teal;
+  font-weight: 900;
+}
 
 /* IMAGES */
 #theDoor {
@@ -74,9 +78,8 @@ body {
 
 #selfie {
   display: flex;
-  margin-left: auto;
-  margin-right: 0;
-  width: 75%;
-  overflow: hidden;
+  align-self: center;
+  width: 250%;
+  height: 200%;
   border: 20px ridge #A05E27;
 }
