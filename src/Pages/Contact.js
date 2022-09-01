@@ -8,11 +8,11 @@ const Contact = () => {
         </div>
         <div>
         <label>E-mail: </label>
-        <input placeholder="you@where.com" required/>
+        <input placeholder="you@where.com" size="20" required/>
         </div>
         <div>
         <label style={{float: "left"}}>Message: </label>
-        <textarea placeholder="How can i help!" required/>
+        <textarea placeholder="How can i help!" rows="4" cols="20" required/>
         </div>
         <button variant="raised">Submit</button>
       </form>
