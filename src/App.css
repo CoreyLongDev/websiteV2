@@ -78,3 +78,8 @@ body {
   height: 200%;
   border: 20px ridge #A05E27;
 }
+#homepagep {
+  display: flex;
+  justify-self: unset;
+  align-items: flex-end;
+}

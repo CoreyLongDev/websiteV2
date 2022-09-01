@@ -9,6 +9,7 @@ const gamesData = [
     githubLink: "https://github.com/CoreyLongDev/Space-Man",
     liveSite: "#"
     }
+    
 ]
 
 export default gamesData

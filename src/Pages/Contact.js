@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
         <div>
         <label style={{float: "left"}}>Message: </label>
-        <textarea placeholder="How can i help!" rows="4" cols="20" required/>
+        <textarea placeholder="temporarily down! please message me on LinkedIn until fixed" rows="4" cols="20" required/>
         </div>
         <button variant="raised">Submit</button>
       </form>

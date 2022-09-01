@@ -6,8 +6,7 @@ function Cards(props) {
           <img src={props.imgURL} className="cardImage" />
           <div className="cardTitle">{props.name}</div>
           <div className="cardSub">{props.subTitle}</div>
-          <p className="cardInfo">{props.info}</p>
-          <a href={props.githubLink} className="githubLink">github</a>
+          <a href={props.githubLink} className="githubLink">GitHub</a>
         </div>
   )
 }
